@@ -2,7 +2,7 @@ name: My build and deploy action
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build-and-deploy-job:
     runs-on: ubuntu-latest
